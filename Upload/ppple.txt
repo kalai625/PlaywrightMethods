@@ -1,0 +1,20 @@
+https://test.cloud.plex.com
+
+Company Code:MT
+Username:MT.SelvaBalraj
+Password Plex2022!!
+
+Search customers
+assert the customer page URL
+click add on actions
+
+fill customer code Test QA
+
+select customer,click add,enter customercode,name and assigned to:selvabalraj and apply
+and click search icon and click show all filters and enter customer code and customer status:no value selected and now 
+record appears and gettext of the record shown and compare with the value u enterd first and now select the record and delete the record
+ 
+values username etc should be passed from json file
+https://stackoverflow.com/questions/73505677/playwright-test-1-testcase-with-different-data-from-json-file
+
+ 

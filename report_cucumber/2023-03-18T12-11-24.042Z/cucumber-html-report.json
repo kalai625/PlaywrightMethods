@@ -1,0 +1,88 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-checks-whether-dropdown-box-has-duplicate-values-or-not;user-prints-all-values-of-table-navigating-through-all-pages",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User Prints All Values Of Table Navigating Through All Pages",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 903535899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User navigates to TestLeaf dashboard page",
+            "match": {
+              "location": "step-definitions\\tc120RLZ32851.step.js:491"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3375177500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User Prints All Values Of Table Through Pagination",
+            "match": {
+              "location": "step-definitions\\tc120RLZ32851.step.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2277212999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 291270199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 269272299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Prints_All_Values_In_Table_Navigating_Through_All_Pages",
+            "line": 1
+          },
+          {
+            "name": "@Validate_Duplicate_Values_In_DropDown",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-checks-whether-dropdown-box-has-duplicate-values-or-not",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "User Checks Whether DropDown Box Has Duplicate Values Or Not",
+    "tags": [
+      {
+        "name": "@Prints_All_Values_In_Table_Navigating_Through_All_Pages",
+        "line": 1
+      }
+    ],
+    "uri": "features\\testleaf\\PrintAllValuesInTableUsingPagination.feature"
+  }
+]

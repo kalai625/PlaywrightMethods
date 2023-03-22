@@ -1,0 +1,88 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-handles-svg-elements;user-handles-svg-elements",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User Handles SVG Elements",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1022057999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "User navigates to Google.co.in",
+            "match": {
+              "location": "step-definitions\\tc120RLZ32851.step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2723674800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Handles SVG Elements",
+            "match": {
+              "location": "step-definitions\\tc120RLZ32851.step.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4533454100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 412200499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 360453700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SVG_Handling",
+            "line": 1
+          },
+          {
+            "name": "@SVG_Handling",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-handles-svg-elements",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "User Handles SVG Elements",
+    "tags": [
+      {
+        "name": "@SVG_Handling",
+        "line": 1
+      }
+    ],
+    "uri": "features\\testleaf\\Handling_SVG.feature"
+  }
+]
